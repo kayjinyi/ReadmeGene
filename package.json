@@ -1,0 +1,23 @@
+{
+  "name": "readmegene",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kayjinyi/ReadmeGene.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kayjinyi/ReadmeGene/issues"
+  },
+  "homepage": "https://github.com/kayjinyi/ReadmeGene#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
+}
