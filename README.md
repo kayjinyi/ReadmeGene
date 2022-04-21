@@ -1,11 +1,14 @@
 
 
-# jj 
+# yy 
+
+---
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 ## Description:
 
-jj
+yy
 
 ---
 
@@ -27,24 +30,22 @@ undefined
 ---
 ##Usage
 
-jjj
+yy
 
 ---
 
 ##contribution
 
-jjj
+yy
 
 ---
 
 ##Test
 
-jjj
+yu
 
 ---
-
 ##Questions
-
 Feel free to reach out via Github or email with any questions. <br>
 [Github](https://github.com/kayjinyi) <br>
 [email](mailto:kayjinyi@gmail.com) 
