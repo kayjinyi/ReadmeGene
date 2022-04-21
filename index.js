@@ -26,7 +26,7 @@ inquirer
         type: 'list',
         message: 'What is your license?',
         name: 'license',
-        choices: ['MIT', 'BSD', 'GNU'],
+        choices: ['MIT', 'ISC', 'Unlicense'],
       },
     {type:'input',
       name: 'username',
@@ -38,13 +38,28 @@ inquirer
 ])
 .then((data)=>{
 console.log(data);
-const {title, description, installation, usage, contribution, test,license, username, email} = data
+const {title, description, installation, usage, contribution, test,license, username, email} = data;
+let licenseC;
+switch(license){
+  case 'MIT':
+    licenseC = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+  case 'ISC':
+    licenseC = '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'
+    break; 
+    case 'Boost Software License 1.0':
+    licenseC = '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'
+    break; 
+    default:
+      licenseC = '' 
+}
+
 const content = `
 
 # ${data.title} 
 
 ---
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+${licenseC}
 
 ---
 ## Description:
@@ -54,39 +69,37 @@ ${data.description}
 ---
 
 ## Table of Contents
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [Contribution](#Contribution)
-* [Test](#Test)
-* [Questions](#Questions)
-
-
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Test](#test)
+* [Questions](#questions)
 
 ---
 
-##Installation
+## Installation
 
 ${data.intallation}
 
 ---
-##Usage
+## Usage
 
 ${data.usage}
 
 ---
 
-##contribution
+## Contribution
 
 ${data.contribution}
 
 ---
 
-##Test
+## Test
 
 ${data.test}
 
 ---
-##Questions
+## Questions
 Feel free to reach out via Github or email with any questions. <br>
 [Github](https://github.com/${data.username}) <br>
 [email](mailto:${data.email}) 
