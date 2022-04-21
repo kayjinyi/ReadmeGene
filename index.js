@@ -79,7 +79,7 @@ ${data.description}
 
 ## Installation
 
-${data.intallation}
+${data.installation}
 
 ---
 ## Usage

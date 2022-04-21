@@ -24,12 +24,12 @@ Have you ever been intrigued by the beautiful food pictures online but do not kn
 
 ## Installation
 
-undefined
+node.js html
 
 ---
 ## Usage
 
-As a humanbeing, beautiful food pictures could soothe both of our stomachs and soul. ​Our randomized  excellent food pictures give the user some sparks about what to eat. Good and detailed recipes help a lot. When we find and try a good recipe, we definitely would like to save it for the future.
+As a humanbeing, beautiful food pictures could soothe both of our stomachs and soul. ​Our randomized  excellent food pictures give the user some sparks about what to eat. Good and detailed recipes help a lot. When we find and try a good recipe, we definitely would like to save it for the future
 
 ---
 
