@@ -1,51 +1,45 @@
+##
 
+User Story
 
-# Delicacy 
+AS A developer
 
----
+I WANT a README generator SO THAT I can quickly create a professional README for a new project
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+GIVEN a command-line application that accepts user input
 
----
-## Description:
+WHEN I am prompted for information about my application repository
 
-Have you ever been intrigued by the beautiful food pictures online but do not know how to cook it or you really would like a detailed description? Have you ever faced the awkward situation that standing in front of our refrigerators  don't know what to cook or eat? Our web is going the rescue!
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
----
+WHEN I enter my project title
 
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [Contribution](#contribution)
-* [Test](#test)
-* [Questions](#questions)
+THEN this is displayed as the title of the README
 
----
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
 
-## Installation
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
 
-node.js html
+WHEN I choose a license for my application from a list of options
 
----
-## Usage
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
 
-As a humanbeing, beautiful food pictures could soothe both of our stomachs and soul. ​Our randomized  excellent food pictures give the user some sparks about what to eat. Good and detailed recipes help a lot. When we find and try a good recipe, we definitely would like to save it for the future
+WHEN I enter my GitHub username
 
----
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
 
-## Contribution
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 
-Teamwork
+WHEN I click on the links in the Table of Contents
 
----
+THEN I am taken to the corresponding section of the README
 
-## Test
+## Mock-Up
 
-Mobile and Web
+The following image shows the application's appearance and functionality:
 
----
-## Questions
-Feel free to reach out via Github or email with any questions. <br>
-[Github](https://github.com/kayjinyi) <br>
-[email](mailto:kayjinyi@gmail.com) 
----
+![The app could create a professional README for a new project with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions.](./readme.png)
+
+![Updated.](./updated.png)
+

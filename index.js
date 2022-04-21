@@ -105,6 +105,6 @@ Feel free to reach out via Github or email with any questions. <br>
 [email](mailto:${data.email}) 
 ---
 `
-fs.writeFile('README.md',content,(err)=>
+fs.writeFile('READMEtest.md',content,(err)=>
 err? console.log(err):console.log("Success"));
 })
