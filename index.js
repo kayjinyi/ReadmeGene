@@ -44,6 +44,7 @@ let licenseC;
 switch(license){
   case 'MIT':
     licenseC = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+        break;
   case 'ISC':
     licenseC = '[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)'
     break; 
